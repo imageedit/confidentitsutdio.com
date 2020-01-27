@@ -1,0 +1,198 @@
+body{margin:0; padding:0;background-color:#F5F5F5;}
+
+.header{height:50px;width:100%; background:#3383F5; }
+.font{font-size:bold; color:#fff; margin-left:95px; font-weight:center; margin-top:10px;}
+.font a{text-decoration:none;color:#ffffff;}
+.font i{margin-left:10px;margin-top:15px; margin-right:10px;}
+.header_text {margin-top:15px;}
+.header_text a{text-decoration:none; color:#ffffff;margin-top:15px; border-left:1px solid red;}
+
+.header_text ul {list-style:none;}
+.header_text ul li{margin:0 ;padding:0; float:left;}
+.header_text ul li :first-child {
+  border:none;
+  border-radius: 5px;
+}
+
+.logo{z-index:1000px; display:block;}
+/* Dropdown Button */
+.menu{margin-left:80px;z-index:600;}
+
+#nav {
+list-style:none inside;
+margin:0;
+padding:0;
+text-align:center;
+
+z-index:600;
+}
+#nav li {
+display:block;
+position:relative;
+float:left;
+background: #2E5B83; /* menu background color */
+z-index:600;
+}
+#nav li a {
+display:block;
+padding:5px;
+text-decoration:none;
+width:200px; /* this is the width of the menu items */
+line-height:35px; /* this is the hieght of the menu items */
+color:#ffffff; /* list item font color */
+font-size:19px;
+font-family:Verdana;
+}
+#nav li li a {font-size:80%;font-size:18px;width:300px;} /* smaller font size for sub menu items */
+#nav li:hover {background:#003f20;} /* highlights current hovered list item and the parent list items when hovering over sub menues */
+#nav ul {
+position:absolute;
+padding:0;
+left:0;
+display:none; /* hides sublists */
+}
+#nav li:hover ul ul {display:none;} /* hides sub-sublists */
+#nav li:hover ul {display:block; } /* shows sublist on hover */
+#nav li li:hover ul {
+display:block; /* shows sub-sublist on hover */
+margin-left:200px; /* this should be the same width as the parent list item */
+margin-top:-35px;
+/* aligns top of sub menu with top of list item */
+}
+#nav ul li a:hover { font-size:20px;}
+
+.midcolor{height:100px; width:100%;}
+.leftcolor{height:10px; width:45%; background-color:wheat; margin-top:50px; float:left;}
+.img_logo{height:80px; width:100px; margin-top:15px; float:left;}
+.rightcolor{height:10px; width:47%; background-color:wheat; margin-top:50px;float:left; }
+
+.maincontent{margin-left:80px;}
+h1{ font-size:35px;color:#FF687D; margin-bottom:25px;}
+	p{font-size:17px; color:gray; }
+
+.middiv{width:100%; background-color:#F0F1F2; float:left; }
+.middiv2{width:100%;  background-color:#F0F1F2; margin-left:-15px;}
+.middiv3{width:100%;  background-color:#DCDCDC; margin-right:50px;}
+.middiv4{width:100%;  }
+
+.middiv h2{text-align:center; font-weight:bold; font-size:36px;font-family:arial; margin-top:20px; color:#FF687D;}
+.middiv p{margin:0 ; padding:0 ;width:800px; font-size:18px; color:#005274;margin-left:200px;margin-top:30px; margin-bottom:30px;}
+
+
+
+.middiv2 img:hover{color:red;}
+.middiv2 h3{font-size:16px; font-weight:bold; color:#000000;}
+.middiv2 p{font-size:12px; font-weight:bold;}
+.middiv2  a{text-decoration:none; }
+.middiv2 a p{text-decoration:none; color:gray;}
+.middiv3 h2{text-align:center; font-weight:bold; font-size:36px;font-family:arial; margin-top:20px;color:#FF687D;}
+.middiv3 p{margin:0 ; padding:0 ;width:800px; font-size:18px; color:gray;margin-left:200px;margin-top:30px; margin-bottom:30px;}
+
+#area{height:350px; width:350px; background:#ffffff; }
+
+/* button display none */
+
+#before_button1{display:none;}
+#before_button2{display:none;}
+#before_button3{display:none;}
+#before_button4{display:none;}
+#before_button5{display:none;}
+#before_button6{display:none;}
+#before_button7{display:none;}
+#before_button8{display:none;}
+#before_button9{display:none;}
+
+/* image display none */
+
+#backgroundbefore1{display:none;}
+#nickbefore1{display:none;}
+#maskingbefore1{display:none;}
+#shadowbefore1{display:none;}
+#RetouchBefore1{display:none;}
+#colorcorrectionbefore1{display:none;}
+#postproductionbefore1{display:none;}
+
+.imgdiv {margin-top:20px; }
+.button{margin-left:125px;}
+.imgdiv h3{text-align:center;font-size:22px; font-weight:bold;font-family:arial; margin-top:20px;}
+
+.middiv_price{width:100%; background-color:#F0F1F2; float:left; }
+.middiv_price h2{color:#1F90FF;text-align:center; font-weight:bold; font-size:36px;font-family:monospace  ; margin-top:20px;}
+.pricediv{height:5px; width:100px; background:#1F90FF; margin-left:576px;}
+
+#area_price{height:400px; width:350px; background:#ffffff; }
+#area_price h1{font-weight:normal; font-size:24px;font-family:arial; text-align:center; margin-top:20px; color:#43A2FF;}
+.per_price1{width:100%; height:100px; background:#1F90FF; text-align:center;}
+.per_price1 span{font-size:22px; color:#fff;}
+.per_price1 text{font-size:45px; font-weight:bold;color:#fff;}
+.per_price1 p{font-size:18px;color:#ffffff; margin-top:-15px;}
+
+.per_price2{width:100%; height:100px; background:#1F90FF; text-align:center;}
+.per_price2 span{font-size:22px; color:#fff;}
+.per_price2 text{font-size:45px; font-weight:bold;color:#fff;}
+.per_price2 p{font-size:18px;color:#ffffff; margin-top:-15px;}
+
+#area_price ul{list-style:none;}
+#area_price ul li {margin-top:30px; margin-left:40px; }
+#area_price ul li p { margin-top:5px;border-bottom:1px dotted; }
+
+.footer{width:100%; height:100px; background-color:#10729B;}
+.footer h4{color:grey; font-size:16px; margin-top:33px; margin-left:500px; float:left; color:#D8FFED;}
+.footer a{text-decoration:none; color:#ffffff; }
+.footer a:hover{text-decoration:underline;}
+.paypal{height:100px; margin-left:50px; }
+.img_cis{margin-top:-129px; height:100px;margin-left:150px; }
+
+
+/* clippintpath area start */
+.clipping_middiv3{width:100%;  background-color:#DCDCDC; margin-right:50px;}
+
+.clipping_middiv3 h2{text-align:center; font-weight:bold; font-size:34px;font-family:arial; margin-top:20px; color:#6BB4FB;}
+.clipping_middiv3 p{margin:0 ; padding:0 ;width:1000px; font-size:18px; color:gray;margin-left:200px;margin-top:30px; margin-bottom:30px;}
+
+.clipping_middiv_price{width:100%; background-color:#F0F1F2; float:left; }
+.clipping_middiv_price h2{color:#1F90FF;text-align:center; font-weight:bold; font-size:30px;font-family:monospace  ; margin-top:20px;}
+.pricediv{height:5px; width:100px; background:#1F90FF; margin-left:576px;}
+
+.clipping_imgdiv {margin-top:20px; }
+#clipping_area{height:300px; width:600px; background:#ffffff; }
+
+
+
+.clipping_footer{width:100%; height:100px; background-color:#000000; margin-top:20px;}
+.clipping_footer h4{color:grey; font-size:16px; margin-top:33px; margin-left:500px; float:left;}
+
+#imga1{float:left;}
+/* clippintpath area stop */
+
+/* price area start */
+.per_price3{width:100%; height:100px; background:#ffffff; text-align:center;}
+.per_price3 span{font-size:22px; color:#000000;}
+.per_price3 text{font-size:45px; font-weight:bold;color:#000000;}
+.per_price3 p{font-size:18px;color:#000000; margin-top:-15px;}
+
+
+.pricing_middiv3{width:1200px;  background-color:#DCDCDC; margin-left:16px; float:left;}
+.pricing_middiv3 h2{text-align:center; font-weight:bold; font-size:34px;font-family:arial; margin-top:20px; color:#1599f7;}
+
+.pricing_middiv_price{width:100%;  float:left; }
+.pricing_middiv_price h2{color:#FF687D;text-align:center; font-weight:bold; font-size:36px;font-family:monospace  ; margin-top:20px;}
+.pricing_pricediv{height:5px; width:300px; background:#1F90FF; margin-left:460px;}
+
+/* price area stop */
+
+/* contuct  area start */
+h5{margin-top:20px; float:left; margin-left:15px;font-weight:bold;color:#004085; }
+h5:hover{text-decoration:underline; cursor:pointer;}
+.contact_font ul{list-style:none;}
+.contact_font{ margin-left:50px;}
+.contact_font li a{font-size:26px;}
+#font_text{margin-left:20px;}
+/* contuct  area stop */
+/* about area start */
+
+.about_middiv{width:100%; background-color:#ffffff; float:left; }
+.about_middiv h2{color:#1B89B6;text-align:center; font-weight:bold; font-size:30px;font-family:monospace  ; margin-top:20px;}
+.about_middiv p{color:#344963; margin-top:20px;}
+
+/* about   area stop */
